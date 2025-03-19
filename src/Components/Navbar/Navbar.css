@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     background: none;
-    padding: 5px 18%;
+    padding: 5px 10%;
 } 
 .logo{
     width: 145px;
@@ -24,7 +24,8 @@
     border: 1px solid #ccc;
     font-size: 14px;
     width: 280px;
-    color: #fff;;
+    color: #fff;
+    cursor: pointer;
 }
 /*2nd part of the navbar*/
 
@@ -34,6 +35,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 4%;
 }
 
 ul {
@@ -63,7 +65,7 @@ ul li{
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    padding: 0px 18%;
+    padding: 0px 10%;
 }
 .intro div {
     display: inline-block;
@@ -74,4 +76,34 @@ ul li{
 
 div a{
     padding-left: 5px;
+}
+/*Hero part of the navbar*/
+.hero-container{
+    position: relative;
+}
+.hero {
+    width: 100%;
+}
+.hero-text{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    /* background-color: blanchedalmond; */
+    color: white;
+    text-align: left;
+    width: 250px;
+}
+.underline{
+    border-bottom: 3px solid red;
+    width: 230px;
+}
+.hero-text-mission{
+    margin-top: 5px;
+}
+.gear-up-now{
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: gold;
+    border: none;
+    cursor: pointer;
 }
