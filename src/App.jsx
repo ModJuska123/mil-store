@@ -1,10 +1,11 @@
 import Navbar from './Components/Navbar/Navbar';
-import Carousel from './Components/Carousel/Carousel';
+import ProductSlider from './Components/ProductSlider';
 
 function App() {
   return (
     <div className="container">
       <Navbar />
+      <ProductSlider/>
     </div>    
   );
 }

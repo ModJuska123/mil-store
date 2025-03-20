@@ -58,6 +58,7 @@ const Navbar = () => {
                     <button className='gear-up-now'>GEAR UP NOW</button>
                 </div>
             </div>
+
             </>
             )
 }
